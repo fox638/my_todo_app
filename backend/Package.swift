@@ -2,9 +2,9 @@
 import PackageDescription
 
 let package = Package(
-    name: "backend",
+    name: "my_todo_app_backend",
     platforms: [
-       .macOS(.v13)
+       .macOS(.v13),
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
