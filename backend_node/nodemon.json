@@ -1,0 +1,12 @@
+{
+  "watch": [
+    "src"
+  ],
+  "ext": "ts, json, graphql",
+  "ignore": [
+    "src/**/*.spec.ts",
+    "src/graphql/generated.ts"
+  ],
+  "exec": "ts-node --files src/index.ts",
+  "delay": 500
+}

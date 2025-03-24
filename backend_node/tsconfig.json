@@ -3,7 +3,7 @@
   "display": "Node 22",
   "_version": "22.0.0",
   "compilerOptions": {
-    "lib": ["es2024"],
+    "lib": ["es2024", "dom"],
     "module": "NodeNext",
     "target": "es2023",
     "strict": true,
